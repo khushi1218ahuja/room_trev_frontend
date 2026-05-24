@@ -55,7 +55,7 @@ export default function Register() {
             <div className="w-10 h-10 rounded-xl bg-primary flex items-center justify-center">
               <Home className="w-5 h-5 text-white" />
             </div>
-            <span className="font-serif text-2xl font-bold text-foreground">StayBnB</span>
+            <span className="font-serif text-2xl font-bold text-foreground">RoomTrev</span>
           </Link>
           <h1 className="text-2xl font-bold text-foreground mt-6 mb-1">Create an account</h1>
           <p className="text-sm text-muted-foreground">Join thousands of travelers and hosts</p>

@@ -37,7 +37,7 @@ export default function Navbar() {
               <Home className="w-4 h-4 text-white" />
             </div>
             <span className="font-serif text-xl font-bold text-foreground tracking-tight group-hover:text-primary transition-colors">
-              StayBnB
+              RoomTrev
             </span>
           </Link>
 

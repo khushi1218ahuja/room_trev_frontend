@@ -47,7 +47,7 @@ export default function Login() {
             <div className="w-10 h-10 rounded-xl bg-primary flex items-center justify-center">
               <Home className="w-5 h-5 text-white" />
             </div>
-            <span className="font-serif text-2xl font-bold text-foreground">StayBnB</span>
+            <span className="font-serif text-2xl font-bold text-foreground">RoomTrev</span>
           </Link>
           <h1 className="text-2xl font-bold text-foreground mt-6 mb-1">Welcome back</h1>
           <p className="text-sm text-muted-foreground">Sign in to your account</p>
@@ -57,11 +57,11 @@ export default function Login() {
         <div className="mb-6 p-3 rounded-xl bg-muted/50 border border-border">
           <p className="text-xs font-medium text-muted-foreground mb-2">Demo accounts:</p>
           <div className="grid grid-cols-2 gap-1 text-xs text-muted-foreground">
-            <span><span className="font-medium text-foreground">Guest:</span> arjun@staybnb.com</span>
+            <span><span className="font-medium text-foreground">Guest:</span> arjun@roomtrev.com</span>
             <span>pass: guest123</span>
-            <span><span className="font-medium text-foreground">Host:</span> rahul@staybnb.com</span>
+            <span><span className="font-medium text-foreground">Host:</span> rahul@roomtrev.com</span>
             <span>pass: host123</span>
-            <span><span className="font-medium text-foreground">Admin:</span> admin@staybnb.com</span>
+            <span><span className="font-medium text-foreground">Admin:</span> admin@roomtrev.com</span>
             <span>pass: admin123</span>
           </div>
         </div>

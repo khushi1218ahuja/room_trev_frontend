@@ -185,10 +185,10 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Why StayBnB */}
+      {/* Why RoomTrev */}
       <section className="py-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <h2 className="font-serif text-3xl font-bold text-foreground mb-3">Why choose StayBnB</h2>
+          <h2 className="font-serif text-3xl font-bold text-foreground mb-3">Why choose RoomTrev</h2>
           <p className="text-muted-foreground max-w-xl mx-auto">
             We make finding and booking PG accommodations simple, safe, and stress-free.
           </p>
@@ -208,7 +208,7 @@ export default function Home() {
             {
               icon: Heart,
               title: "Loved by Thousands",
-              desc: "Over 20,000 guests have found their perfect stay through StayBnB. Join the community.",
+              desc: "Over 20,000 guests have found their perfect stay through RoomTrev. Join the community.",
             },
           ].map((feature, i) => (
             <motion.div
@@ -234,7 +234,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="font-serif text-3xl font-bold text-white mb-4">Have a room to rent?</h2>
           <p className="text-white/70 mb-8 max-w-xl mx-auto">
-            Join thousands of hosts earning extra income by listing their PG rooms on StayBnB.
+            Join thousands of hosts earning extra income by listing their PG rooms on RoomTrev.
           </p>
           <Link
             href="/register"
@@ -251,11 +251,11 @@ export default function Home() {
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <div className="flex items-center gap-2">
               <div className="w-7 h-7 rounded-lg bg-secondary flex items-center justify-center">
-                <span className="text-foreground font-bold text-xs">S</span>
+                <span className="text-foreground font-bold text-xs">R</span>
               </div>
-              <span className="font-serif font-bold text-white">StayBnB</span>
+              <span className="font-serif font-bold text-white">RoomTrev</span>
             </div>
-            <p className="text-sm">© 2026 StayBnB. All rights reserved.</p>
+            <p className="text-sm">© 2026 RoomTrev. All rights reserved.</p>
             <div className="flex gap-4 text-sm">
               <span className="hover:text-white cursor-pointer transition-colors">Privacy</span>
               <span className="hover:text-white cursor-pointer transition-colors">Terms</span>

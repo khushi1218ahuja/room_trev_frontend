@@ -1,6 +1,6 @@
-# roomtrev — React Frontend
+# RoomTrev - React Frontend
 
-The frontend for **StayBnB**, a room booking platform. Built with React 18, Vite, TypeScript, Tailwind CSS, and shadcn/ui.
+The frontend for **RoomTrev**, a room booking platform. Built with React 18, Vite, TypeScript, Tailwind CSS, and shadcn/ui.
 
 ---
 
@@ -25,7 +25,7 @@ The frontend for **StayBnB**, a room booking platform. Built with React 18, Vite
 ## Project Structure
 
 ```
-stay_bnb_frontend/
+room_trev_frontend/
 ├── src/
 │   ├── App.tsx                  # Root component with routing
 │   ├── main.tsx                 # Entry point
@@ -73,9 +73,9 @@ stay_bnb_frontend/
 
 ## Prerequisites
 
-- **Node.js 18+** — [Download](https://nodejs.org/)
-- **pnpm 9+** — Install with `npm install -g pnpm`
-- **Backend API running** — Either the [Node.js API server](https://github.com/khushi1218ahuja/staybnb) or the [Spring Boot backend](https://github.com/khushi1218ahuja/stay_bnb_java)
+- **Node.js 18+** - [Download](https://nodejs.org/)
+- **pnpm 9+** - Install with `npm install -g pnpm`
+- **Backend API running** - Use the [RoomTrev Spring Boot backend](https://github.com/khushi1218ahuja/room_trev_backend)
 
 ---
 
@@ -84,8 +84,8 @@ stay_bnb_frontend/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/khushi1218ahuja/stay_bnb_frontend.git
-cd stay_bnb_frontend
+git clone https://github.com/khushi1218ahuja/room_trev_frontend.git
+cd room_trev_frontend
 ```
 
 ### 2. Install dependencies
@@ -117,7 +117,7 @@ VITE_API_URL=http://localhost:8081
 Open `lib/api-client-react/src/custom-fetch.ts` and make sure the base URL points to your running backend:
 
 ```ts
-// It reads from VITE_API_URL at runtime — set it in your .env
+// It reads from VITE_API_URL at runtime - set it in your .env
 ```
 
 ### 5. Start the development server
@@ -147,7 +147,7 @@ Run these from the project root:
 
 | Route | Page | Access |
 |-------|------|--------|
-| `/` | Home — landing page | Public |
+| `/` | Home - landing page | Public |
 | `/rooms` | Browse all available rooms | Public |
 | `/rooms/:id` | Room details + booking form | Public |
 | `/login` | Login | Public |
@@ -169,19 +169,10 @@ Run these from the project root:
 
 ## Connecting to the Backend
 
-This frontend works with two backend options:
+This frontend works with the RoomTrev Spring Boot backend:
 
-### Option A — Node.js API Server
-Clone and run the full monorepo:
 ```bash
-git clone https://github.com/khushi1218ahuja/staybnb.git
-```
-Set `VITE_API_URL=http://localhost:3001` (or whichever port the Node API runs on).
-
-### Option B — Spring Boot Backend
-Clone and run the Java backend:
-```bash
-git clone https://github.com/khushi1218ahuja/stay_bnb_java.git
+git clone https://github.com/khushi1218ahuja/room_trev_backend.git
 ```
 Set `VITE_API_URL=http://localhost:8081` in your `.env`.
 
