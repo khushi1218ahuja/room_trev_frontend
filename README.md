@@ -1,4 +1,4 @@
-# StayBnB — React Frontend
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/13bd3540-ee3a-4e98-82cb-e605f610276a" /># roomtrev — React Frontend
 
 The frontend for **StayBnB**, a room booking platform. Built with React 18, Vite, TypeScript, Tailwind CSS, and shadcn/ui.
 
